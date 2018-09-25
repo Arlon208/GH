@@ -1,0 +1,154 @@
+html {
+    background-image: url("https://i.pinimg.com/originals/49/73/ea/4973ead72580df908af111b6770fe6ac.jpg");
+}
+
+body {
+  font-family: Tahoma, sans-serif;
+  font-size: 87%;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #FFF;
+    padding-left: 40px;
+  padding-right: 40px;
+  box-sizing: border-box;
+}
+
+header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: skyblue;
+    background: #000
+}
+
+header h1 {
+  margin: 0;
+  font-weight: normal;
+  font-size: 165%;
+}
+
+header p {
+  margin: 0;
+}
+
+.content-area {
+  border-top: 3px solid #e5e9dc;
+  border-bottom: 3px solid #e5e9dc;
+}
+
+.main-area {
+  width: 66%;
+  float: left;
+    font-style:italic;
+  padding-right: 40px;
+  box-sizing: border-box;
+    font-size: 120%
+}
+
+.sidebar {
+  width: 25%;
+  float: left;
+  background-color: #0000;
+  padding: 10px 10px;
+  box-sizing: border-box;
+  
+}
+
+footer {
+  text-align: center;
+  font-size: 85%;
+  color: #999;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.fix {
+  clear: both;
+}
+
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+
+.group:after {
+  clear: both;
+}
+
+.group {
+  zoom: 1;
+}
+
+table {
+   width: 100%;
+   border: 1px solid #000;
+}
+th, td {
+   width: 25%;
+   text-align: left;
+   vertical-align: top;
+   border: 1px solid #000;
+   border-collapse: collapse;
+   padding: 0.3em;
+   caption-side: bottom;
+}
+caption {
+   padding: 0.3em;
+   color: #fff;
+    background: #000;
+}
+th {
+   background: #eee;
+}
+.slider {
+	width: 60%;
+	margin: auto;
+	overflow: hidden;
+}
+
+.slider ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+	
+	animation: cambio 20s infinite alternate linear;
+}
+
+.slider li {
+	width: 100%;
+	list-style: none;
+}
+
+.slider img {
+	width: 100%;
+}
+
+@keyframes cambio {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+.poema {
+            
+            font-style:italic; 
+            line-height: 30pt;
+            font-size: 12pt;
+            color: #222;
+      }
